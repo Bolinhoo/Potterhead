@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color: white;
+    margin:0px;
+    font-family: "Playwrite AR", cursive;
+    margin-bottom: 100px;
+}
+
+header {
+    border: solid 2px rgb(1, 84, 41);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(1, 84, 41);
+}
+
+.chamada {
+    background: rgb(0, 20, 14);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+}
+
+img {
+    height: 200px;
+}
+
+.videos {
+    display: flex;
+    overflow: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    border: 3px solid green;
+}
+
+.categoria h2 {
+    color:  rgb(1, 84, 41);
+}
